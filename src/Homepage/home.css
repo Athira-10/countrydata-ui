@@ -1,0 +1,163 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+
+.filter-options span {
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filter-options .active {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.filter-dropdown {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.welcome-title {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.underline {
+  flex-grow: 1;
+  height: 2px;
+  background-color: black;
+}
+
+
+.slider-item {
+  text-align: center;
+  padding: 20px;
+}
+
+
+.slider-flag {
+  width: 400px;  
+  height: 250px; 
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto; 
+}
+
+
+
+.country-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+.arrow-dot-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+
+.custom-arrow {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.custom-dots {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: lightgray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.active-dot {
+  background: black;
+}
+
+
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.mobile-menu-container {
+  position: relative;
+}
+
+
+.mobile-menu {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-item {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+
+.menu-item.active,
+.menu-item:hover {
+  background: #007bff;
+  color: white;
+}
+
+.card-bodyy {
+  margin-top: 150px; /* Adjust as needed */
+}
